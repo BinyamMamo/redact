@@ -21,6 +21,8 @@
 
   var TEXTAREA_SELS = [
     '#prompt-textarea',
+    // ChatGPT serves this narrower composer to logged-out and small-screen sessions.
+    '#mobile-composer-prompt',
     'div[contenteditable="true"].ql-editor',
     'div[contenteditable="true"].ProseMirror',
     'div[contenteditable="true"][role="textbox"]',
